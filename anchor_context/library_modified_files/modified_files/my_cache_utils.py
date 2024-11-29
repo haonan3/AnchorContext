@@ -217,7 +217,7 @@ class QuantizedCacheConfig(CacheConfig):
             Length of the residual cache which will always be stored in original presicion.
             Defaults to 128.
         compute_dtype (`torch.dtype`, *optional*, defaults to `torch.float16`):
-            The defualt dtype used for computations in the model. Keys and Values will be cast to this dtype after dequantization.
+            The default dtype used for computations in the model. Keys and Values will be cast to this dtype after dequantization.
         device (`str`, *optional*, defaults to `"cpu"`):
             Device on which to perform computations, should be same as the model's device.
     """
